@@ -1,13 +1,11 @@
 # My ~/[AGENTS.md](./AGENTS.md)
-The most important productivity-boosting / cost-cutting file on your machine these days.
+The most important productivity-boosting / cost-cutting file on your machine these days (apparently).
 
-Run from the repo root. Move or merge existing files at the link paths first.
+Copy my [AGENTS.md](./AGENTS.md) to your ~/AGENTS.md or clone the repo and setup symlinking. At the VERY least I recommend symlinking your tools agent files together to share rules across agents.
 
 ### macOS
 
 ```sh
-mkdir -p ~/.claude ~/.gemini
-ln -s "$PWD/AGENTS.md" "$HOME/AGENTS.md"
 ln -s "$HOME/AGENTS.md" "$HOME/.claude/CLAUDE.md"
 ln -s "$HOME/AGENTS.md" "$HOME/.gemini/GEMINI.md"
 ```
